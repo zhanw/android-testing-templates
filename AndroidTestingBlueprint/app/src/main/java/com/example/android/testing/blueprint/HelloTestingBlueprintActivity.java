@@ -47,6 +47,8 @@ public class HelloTestingBlueprintActivity extends AppCompatActivity {
 
         mPlainJavaClassInstance = new MyPlainJavaClass();
         mAndroidLibraryClassInstance = new AndroidLibraryModuleClass();
+
+        System.out.println();
     }
 
     public void onClick(View view) {
