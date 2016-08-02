@@ -75,9 +75,7 @@ android {
 dependencies {
     // App's dependencies, including test
     compile 'com.android.support:appcompat-v7:' + rootProject.ext.supportLibVersion
-
-    compile project(':module-plain-java') // Optional module for non-Android code
-    compile project(':module-android-library') // Optional module for additional Android code
+    
 
     // Dependencies for local unit tests
     testCompile 'junit:junit:' + rootProject.ext.junitVersion
